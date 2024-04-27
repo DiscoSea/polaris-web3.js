@@ -1,9 +1,9 @@
 {
   "name": "@polaris-fuel/web3.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.7"
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
     "@solana/spl-token": "^0.4.6",
