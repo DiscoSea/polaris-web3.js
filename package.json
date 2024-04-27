@@ -1,9 +1,9 @@
 {
   "name": "@polaris-fuel/web3.js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "description": "",
-  "main": "./src/index.tsx",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

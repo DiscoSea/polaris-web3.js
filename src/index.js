@@ -18,16 +18,16 @@ export function greet() {
 
 
 export function createBuyInstruction(
-  feePayer :PublicKey,
-  marketPDA :PublicKey,
-  userAtlasAccount:PublicKey,
-  pdaAtlasAccount :PublicKey,
-  marketOwnerPubkey:PublicKey,
-  resourceMint:PublicKey,
-  userResourceAccount:PublicKey,
-  pdaAmmoAccount:PublicKey,
-  beneficiaryAtlasAccount:PublicKey,
-  multiplier:number
+  feePayer ,
+  marketPDA ,
+  userAtlasAccount,
+  pdaAtlasAccount ,
+  marketOwnerPubkey,
+  resourceMint,
+  userResourceAccount,
+  pdaAmmoAccount,
+  beneficiaryAtlasAccount,
+  multiplier
 )
 {
 
