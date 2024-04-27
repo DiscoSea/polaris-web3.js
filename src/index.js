@@ -4,7 +4,6 @@ import { TOKEN_PROGRAM_ID } from '@solana/spl-token';
 const POLARIS_CONFIG_PDA = new PublicKey("FgWVFPpFQpAk1NkXn6X7q9rUtk8sfq3nEbxE9THt2nmD");
 const POLARIS_FEE_SOL = new PublicKey("FgWVFPpFQpAk1NkXn6X7q9rUtk8sfq3nEbxE9THt2nmD");
 const POLARIS_FEE_ATLAS = new PublicKey("FgWVFPpFQpAk1NkXn6X7q9rUtk8sfq3nEbxE9THt2nmD");
-const programId = new PublicKey('9NVKKHGxkMQPDpemz6ZTdRrM9P4dxaKGRcjgTBncVDRm');
 
 const Instructions = {
     BuyInstruction: 1
@@ -18,6 +17,7 @@ export function greet() {
 
 
 export function createBuyInstruction(
+  programId,
   feePayer ,
   marketPDA ,
   userAtlasAccount,
