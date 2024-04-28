@@ -2,8 +2,6 @@ import { PublicKey, TransactionInstruction, SystemProgram } from '@solana/web3.j
 import { TOKEN_PROGRAM_ID } from '@solana/spl-token';
 
 const POLARIS_CONFIG_PDA = new PublicKey("9Qn1FLErYHPZiRusHdGvQDgVJeR82VrEXbYf33fHAvmB");
-const POLARIS_FEE_SOL = new PublicKey("FgWVFPpFQpAk1NkXn6X7q9rUtk8sfq3nEbxE9THt2nmD");
-const POLARIS_FEE_ATLAS = new PublicKey("FgWVFPpFQpAk1NkXn6X7q9rUtk8sfq3nEbxE9THt2nmD");
 
 const Instructions = {
     BuyInstruction: 1
@@ -27,6 +25,8 @@ export function createBuyInstruction(
   userResourceAccount,
   pdaAmmoAccount,
   beneficiaryAtlasAccount,
+  POLARIS_FEE_ATLAS,
+  POLARIS_FEE_SOL,
   multiplier
 )
 {
